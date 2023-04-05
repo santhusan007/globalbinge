@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -85,6 +85,10 @@ header {
     background: #ffffff;
 }
 
+header .container {
+    padding-top: 125px;
+    padding-bottom: 25px;
+}
 
 header img {
     display: block;
@@ -94,16 +98,16 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 header .intro-text .skills {
-    text-transform: uppercase;
     font-size: 1.25em;
-    font-weight: 200;
+    font-weight: 300;
 }
+
 /* 
 #about-gokarna {
     background-image: url('https://source.unsplash.com/vZlTg_McCDo/1600x900');
@@ -132,6 +136,7 @@ video {
     width: 100% !important;
     height: auto !important;
 }
+
 /* 
 @media(max-width:500px) {
     .top-class video {   
@@ -143,30 +148,34 @@ video {
 } */
 
 @media(min-width:768px) {
-    
+    header .container {
+        padding-top: 125px;
+        padding-bottom: 0px;
+
+    }
 
     header .intro-text .name {
-        font-size: 2em;
+        font-size: 4.75em;
     }
 
     header .intro-text .skills {
-        font-size: 1.25em;
+        font-size: 1.75em;
     }
 }
 
- @keyframes zoominoutsinglefeatured {
-     0% {
-         transform: scale(1, 1);
-     }
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1, 1);
+    }
 
-     50% {
-         transform: scale(1.2, 1.2);
-     }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
 
-     100% {
-         transform: scale(1, 1);
-     }
- }
+    100% {
+        transform: scale(1, 1);
+    }
+}
 
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -194,7 +203,7 @@ video {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -216,7 +225,7 @@ video {
 }
 
 section {
-        padding: 100px 0;
+    padding: 100px 0;
 }
 
 section h2 {
@@ -411,7 +420,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(24, 188, 156, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -486,7 +495,7 @@ section.success {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
     resize: none;
 }
 
@@ -501,10 +510,10 @@ section.success {
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
