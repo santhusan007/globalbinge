@@ -19,7 +19,7 @@
     });
 
     // BACKSTRETCH SLIDESHOW
-    $('#about').backstretch([
+    $('#about1').backstretch([
       "images/slide/1.jpeg", 
       "images/slide/2.jpeg",
       "images/slide/3.jpeg",
@@ -28,7 +28,7 @@
     ],  {duration: 2000});
 
     // BACKSTRETCH SLIDESHOW
-    $('#about-gokarna').backstretch([
+    $('#about-gokarna1').backstretch([
       "images/slide/4.jpg", 
       "images/slide/1.jpg",
       "images/slide/2.jpg",
